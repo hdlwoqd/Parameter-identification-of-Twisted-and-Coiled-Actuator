@@ -1,14 +1,6 @@
-The models of Twisted and coiled Actuator (TCA) can be divided into physics-based models and control-oriented models. 
-The control-oriented models employ parameter identification methods to determine the parameters of the TCA. 
-The complex interplay of thermodynamic and mechanical factors leads to the nonlinear behavior of the TCA. 
-Specifically, thermodynamics is primarily driven by Joule heating, with natural convection acting as a secondary dissipation mechanism, 
-while radiation and damping heat further complicate the system. The mechanical response of the actuator also exhibits nonlinearity, 
-with the force typically modeled using a linear equation that includes stiffness, damping, and temperature effects. However, more refined models account for thermal expansion, 
-temperature-dependent elastic modulus, and hysteresis behavior.
+The models of Twisted and coiled Actuator (TCA) can be divided into physics-based models and control-oriented models. The control-oriented models employ parameter identification methods to determine the parameters of the TCA. The complex interplay of thermodynamic and mechanical factors leads to the nonlinear behavior of the TCA. Specifically, thermodynamics is primarily driven by Joule heating, with natural convection acting as a secondary dissipation mechanism, while radiation and damping heat further complicate the system. The mechanical response of the actuator also exhibits nonlinearity, with the force typically modeled using a linear equation that includes stiffness, damping, and temperature effects. However, more refined models account for thermal expansion, temperature-dependent elastic modulus, and hysteresis behavior.
 
-Despite these nonlinearities, the linear dynamic model (referenced as {yip2017control}) remains widely adopted due to its simplicity, 
-effectiveness in closed-loop control, and convenience in parameter estimation, offering comparable performance in motion control. 
-This paper adopts this model and conducts parameter identification experiments. The project will detail the methodology for identifying the parameters of this model.
+Despite these nonlinearities, the linear dynamic model (referenced as {yip2017control}) remains widely adopted due to its simplicity, effectiveness in closed-loop control, and convenience in parameter estimation, offering comparable performance in motion control. This paper adopts this model and conducts parameter identification experiments. The project will detail the methodology for identifying the parameters of this model.
 
 The model consists of two parts: the thermodynamic model and the mechanical model.
 
